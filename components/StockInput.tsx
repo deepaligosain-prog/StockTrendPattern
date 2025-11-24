@@ -81,7 +81,7 @@ export const StockInput: React.FC<StockInputProps> = ({ onAnalyze, onCompare, on
         {mode === AppMode.DISCOVERY && (
             <div className="flex-1 bg-slate-950/50 border border-slate-800 rounded-xl p-3 flex items-center text-slate-400 text-sm">
                 <span className="mr-2 text-lg">🧭</span>
-                AI will scan for pairs where one stock follows another with >0.8 correlation and >1 day lag.
+                AI will scan for pairs where one stock follows another with &gt;0.8 correlation and &gt;1 day lag.
             </div>
         )}
 
