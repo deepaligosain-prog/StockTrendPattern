@@ -1,0 +1,5 @@
+{
+  "name": "StockPatterns",
+  "description": "A comprehensive stock trend analyzer and comparison tool powered by Gemini 2.5 Flash. Analyze trends, view SMAs, and compare correlation scores between assets.",
+  "requestFramePermissions": []
+}
