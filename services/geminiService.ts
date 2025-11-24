@@ -2,7 +2,7 @@ import { GoogleGenAI, Type, Schema } from "@google/genai";
 import { StockData, ComparisonData, DiscoveryResult, TrendDirection } from '../types';
 import { SYSTEM_INSTRUCTION, SINGLE_STOCK_PROMPT, COMPARE_STOCK_PROMPT, DISCOVERY_PROMPT } from '../constants';
 
-const ai = new GoogleGenAI({ apiKey: "AIzaSyAYTg_5lfCIso1wOsKt6REFln07pGjUqCc" });
+const ai = new GoogleGenAI({ apiKey: "AIzaSyBg_9PAJniN1c9LN3yJXCFUCtgjxntyQYI" });
 
 const stockSchema: Schema = {
   type: Type.OBJECT,
